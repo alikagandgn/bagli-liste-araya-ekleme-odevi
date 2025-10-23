@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #define function_nodes 20
 #define max_nodes 100
+
 struct Node{
     int data;
     struct Node* next; 
@@ -78,3 +79,4 @@ int main(){
 
     return 0;
 }
+
